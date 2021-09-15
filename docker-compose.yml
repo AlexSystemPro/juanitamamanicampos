@@ -5,7 +5,7 @@ services:
     container_name: mongo-ejemplo
   nodeweb:
     environment: 
-      - BASE_IP: "mongodb"
+      BASE_IP "mongodb"
     build: .
     image: node-imagen
     container_name: node-ejemplo
